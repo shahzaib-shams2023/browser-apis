@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Visibility API</title>
+</head>
+<style>
+    body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:  center;
+        flex-direction: column;
+    }
+
+    .box{
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px 0px #ccc;
+        width: 350px;
+        margin: 10px 0;
+    }
+</style>
+<body>
+
+
+    <div class="box">
+        <h1>Online / Offline</h1>
+        <p id="status"></p>
+    </div>
+
+    <div class="box">
+        <h2>Navigation APIs</h2>
+        <p id="timing"></p>
+    </div>
+
+
+    <div class="box">
+        <h2>Device orientation APIs</h2>
+        <p id="deviceStatus">Tilt your device to get data...</p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
